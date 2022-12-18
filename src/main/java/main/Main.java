@@ -1,23 +1,20 @@
 package main;
 
-
-import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        DataInputStream dis = new DataInputStream(new FileInputStream("productList"));
+    public static void main(String[] args) throws FileNotFoundException {
+        Scanner scanner = new Scanner(new FileInputStream("productList"));
 
-        byte[] buffer = new byte[512];
-        while(dis.available() != 0){
-            int count = dis.read(buffer);
+        while (scanner.hasNextLine()) {
+            System.out.println(scanner.nextLine());
 
-            if(count > 0){
-                System.out.println(new String((buffer)));
-            }
         }
+            Store store = new Store();
+            store.checkAvailability();
 
+        }
     }
-}
+
