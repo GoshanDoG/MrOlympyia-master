@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="792.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="29.0" layoutY="147.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="135.0" style="-fx-background-color: #FFCA30;" text="Button" />
+      <Button layoutX="29.0" layoutY="225.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="135.0" style="-fx-background-color: #FFCA30;" text="Button" />
+      <Button layoutX="29.0" layoutY="304.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="135.0" style="-fx-background-color: #FFCA30;" text="Button" />
+      <Button layoutX="29.0" layoutY="390.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="135.0" style="-fx-background-color: #FFCA30;" text="Button" />
+      <AnchorPane prefHeight="106.0" prefWidth="792.0" style="-fx-background-color: #000000;">
+         <children>
+            <Label graphicTextGap="5.0" layoutX="208.0" layoutY="9.0" prefHeight="113.0" prefWidth="376.0" text="Mr.Olypmia" textFill="#ffc830">
+               <font>
+                  <Font name="Eras Demi ITC" size="50.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="-23.0" layoutY="113.0" prefHeight="18.0" prefWidth="814.0" style="-fx-background-color: #FFCA30;" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
