@@ -4,12 +4,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Storage {
-    public void productSearch() {
+public class Storage  {
+    public void productSearch(String sub) {
+
         final String PATH = "productList.txt";
-        Scanner read = new Scanner(System.in);
-        System.out.print("Найти товар: ");
-        String sub = read.nextLine().trim();
 
         //читаем файл
         try (Scanner reader = new Scanner(new File(PATH))) {
